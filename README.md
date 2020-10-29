@@ -119,6 +119,7 @@ with the corresponding data from `@article`. We'll also use a different form hel
 <% end %>
 ```
 
+
 In this case, `form_for` takes care of some work for us. Using the object
 `@article` we've provided, `form_for` determines that `@article` is **not a _new_
 instance** of the `Article` class. Because of this, `form_for` knows to
